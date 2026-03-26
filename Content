@@ -1,0 +1,16 @@
+File                                What it does 
+src/train.py :     
+   Full training pipeline — two-stage fine-tuning, class imbalance handling, saves best model .
+
+           src/predict.py.  
+ Inference on single images or folders with confidence scores.      
+
+    src/gradcam.py:
+ Grad-CAM heatmaps showing which part of the X-ray the model looks at.      
+
+src/setup_data.py:
+Downloads the Kaggle dataset automatically.         
+ notebooks/exploration.ipynb.     
+   EDA, results visualisation, Grad-CAM demo.  
+         README.md :
+  Professional README with badges, architecture diagram, results table
